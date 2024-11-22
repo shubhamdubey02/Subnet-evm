@@ -1,0 +1,2 @@
+github.com/shubhamdubey02/subnet/precompile/precompileconfig=Predicater,Config,ChainConfig,Accepter=precompile/precompileconfig/mocks.go
+github.com/shubhamdubey02/subnet/precompile/contract=BlockContext,AccessibleState,StateDB=precompile/contract/mocks.go
