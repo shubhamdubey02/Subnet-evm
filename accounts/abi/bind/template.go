@@ -26,7 +26,7 @@
 
 package bind
 
-import "github.com/shubhamdubey02/subnet/accounts/abi"
+import "github.com/shubhamdubey02/subnet-evm/accounts/abi"
 
 // tmplData is the data structure required to fill the binding template.
 type tmplData struct {
@@ -101,10 +101,10 @@ import (
 	"strings"
 	"errors"
 
-	"github.com/shubhamdubey02/subnet/accounts/abi"
-	"github.com/shubhamdubey02/subnet/accounts/abi/bind"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/interfaces"
+	"github.com/shubhamdubey02/subnet-evm/accounts/abi"
+	"github.com/shubhamdubey02/subnet-evm/accounts/abi/bind"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/interfaces"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/event"
 )

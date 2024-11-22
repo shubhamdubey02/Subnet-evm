@@ -29,7 +29,7 @@ package bloombits
 import (
 	"errors"
 
-	"github.com/shubhamdubey02/subnet/core/types"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
 )
 
 var (

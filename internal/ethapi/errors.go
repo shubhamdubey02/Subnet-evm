@@ -30,8 +30,8 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/shubhamdubey02/subnet/accounts/abi"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/accounts/abi"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 )
 
 // revertError is an API error that encompasses an EVM revert with JSON error

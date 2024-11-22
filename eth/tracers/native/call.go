@@ -35,10 +35,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/accounts/abi"
-	"github.com/shubhamdubey02/subnet/core/vm"
-	"github.com/shubhamdubey02/subnet/eth/tracers"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/accounts/abi"
+	"github.com/shubhamdubey02/subnet-evm/core/vm"
+	"github.com/shubhamdubey02/subnet-evm/eth/tracers"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 )
 
 //go:generate go run github.com/fjl/gencodec -type callFrame -field-override callFrameMarshaling -out gen_callframe_json.go

@@ -25,10 +25,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/params"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/params"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
 )
 
 func fundAddressByGenesis(addrs []common.Address) (string, error) {

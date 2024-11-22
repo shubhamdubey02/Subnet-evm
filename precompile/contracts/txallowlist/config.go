@@ -5,8 +5,8 @@ package txallowlist
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/precompile/allowlist"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/precompile/allowlist"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
 )
 
 var _ precompileconfig.Config = &Config{}

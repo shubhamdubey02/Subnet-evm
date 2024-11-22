@@ -10,8 +10,8 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/precompile/contract"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contract"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 )
 
 // AllowList is an abstraction that allows other precompiles to manage

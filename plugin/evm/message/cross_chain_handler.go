@@ -10,8 +10,8 @@ import (
 	"github.com/cryft-labs/cryftgo/codec"
 	"github.com/cryft-labs/cryftgo/ids"
 
-	"github.com/shubhamdubey02/subnet/internal/ethapi"
-	"github.com/shubhamdubey02/subnet/rpc"
+	"github.com/shubhamdubey02/subnet-evm/internal/ethapi"
+	"github.com/shubhamdubey02/subnet-evm/rpc"
 
 	"github.com/ethereum/go-ethereum/log"
 )

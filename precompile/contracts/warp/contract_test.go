@@ -15,12 +15,12 @@ import (
 	avalancheWarp "github.com/cryft-labs/cryftgo/vms/platformvm/warp"
 	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core/state"
-	"github.com/shubhamdubey02/subnet/precompile/contract"
-	"github.com/shubhamdubey02/subnet/precompile/testutils"
-	"github.com/shubhamdubey02/subnet/predicate"
-	"github.com/shubhamdubey02/subnet/utils"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/core/state"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contract"
+	"github.com/shubhamdubey02/subnet-evm/precompile/testutils"
+	"github.com/shubhamdubey02/subnet-evm/predicate"
+	"github.com/shubhamdubey02/subnet-evm/utils"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 	"github.com/stretchr/testify/require"
 )
 

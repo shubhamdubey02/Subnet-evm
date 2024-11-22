@@ -11,7 +11,7 @@ import (
 	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
 	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/commontype"
+	"github.com/shubhamdubey02/subnet-evm/commontype"
 )
 
 // StatefulPrecompileConfig defines the interface for a stateful precompile to

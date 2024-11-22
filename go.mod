@@ -1,4 +1,4 @@
-module github.com/shubhamdubey02/subnet
+module github.com/shubhamdubey02/subnet-evm
 
 go 1.21.10
 

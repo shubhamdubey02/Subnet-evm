@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/cryft-labs/cryftgo/version"
-	"github.com/shubhamdubey02/subnet/plugin/evm"
-	"github.com/shubhamdubey02/subnet/plugin/runner"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm"
+	"github.com/shubhamdubey02/subnet-evm/plugin/runner"
 )
 
 func main() {

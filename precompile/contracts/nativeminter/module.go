@@ -8,9 +8,9 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/precompile/contract"
-	"github.com/shubhamdubey02/subnet/precompile/modules"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contract"
+	"github.com/shubhamdubey02/subnet-evm/precompile/modules"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
 )
 
 var _ contract.Configurator = &configurator{}

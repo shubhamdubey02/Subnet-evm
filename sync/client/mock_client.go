@@ -12,9 +12,9 @@ import (
 	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	"github.com/shubhamdubey02/subnet/sync/handlers"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/sync/handlers"
 )
 
 var (

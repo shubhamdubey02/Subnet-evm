@@ -34,9 +34,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/shubhamdubey02/subnet/cmd/evm/internal/t8ntool"
-	"github.com/shubhamdubey02/subnet/internal/cmdtest"
-	"github.com/shubhamdubey02/subnet/internal/reexec"
+	"github.com/shubhamdubey02/subnet-evm/cmd/evm/internal/t8ntool"
+	"github.com/shubhamdubey02/subnet-evm/internal/cmdtest"
+	"github.com/shubhamdubey02/subnet-evm/internal/reexec"
 )
 
 func TestMain(m *testing.M) {

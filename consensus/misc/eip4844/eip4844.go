@@ -31,8 +31,8 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/params"
 )
 
 var (

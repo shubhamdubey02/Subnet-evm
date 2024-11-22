@@ -18,13 +18,13 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/core/state/snapshot"
-	"github.com/shubhamdubey02/subnet/eth"
-	"github.com/shubhamdubey02/subnet/params"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	syncclient "github.com/shubhamdubey02/subnet/sync/client"
-	"github.com/shubhamdubey02/subnet/sync/statesync"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/core/state/snapshot"
+	"github.com/shubhamdubey02/subnet-evm/eth"
+	"github.com/shubhamdubey02/subnet-evm/params"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	syncclient "github.com/shubhamdubey02/subnet-evm/sync/client"
+	"github.com/shubhamdubey02/subnet-evm/sync/statesync"
 )
 
 const (

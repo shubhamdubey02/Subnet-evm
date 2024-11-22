@@ -35,8 +35,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/mattn/go-isatty"
-	"github.com/shubhamdubey02/subnet/internal/version"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/internal/version"
+	"github.com/shubhamdubey02/subnet-evm/params"
 	"github.com/urfave/cli/v2"
 )
 

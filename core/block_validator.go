@@ -30,11 +30,11 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/shubhamdubey02/subnet/consensus"
-	"github.com/shubhamdubey02/subnet/core/state"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/params"
-	"github.com/shubhamdubey02/subnet/trie"
+	"github.com/shubhamdubey02/subnet-evm/consensus"
+	"github.com/shubhamdubey02/subnet-evm/core/state"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/params"
+	"github.com/shubhamdubey02/subnet-evm/trie"
 )
 
 // BlockValidator is responsible for validating block headers, uncles and

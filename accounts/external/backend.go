@@ -36,11 +36,11 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/event"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/accounts"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/interfaces"
-	"github.com/shubhamdubey02/subnet/rpc"
-	"github.com/shubhamdubey02/subnet/signer/core/apitypes"
+	"github.com/shubhamdubey02/subnet-evm/accounts"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/interfaces"
+	"github.com/shubhamdubey02/subnet-evm/rpc"
+	"github.com/shubhamdubey02/subnet-evm/signer/core/apitypes"
 )
 
 type ExternalBackend struct {

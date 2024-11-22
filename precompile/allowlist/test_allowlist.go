@@ -7,11 +7,11 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/precompile/contract"
-	"github.com/shubhamdubey02/subnet/precompile/modules"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
-	"github.com/shubhamdubey02/subnet/precompile/testutils"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contract"
+	"github.com/shubhamdubey02/subnet-evm/precompile/modules"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/precompile/testutils"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

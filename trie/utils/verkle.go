@@ -24,7 +24,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/lru"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
-	"github.com/shubhamdubey02/subnet/metrics"
+	"github.com/shubhamdubey02/subnet-evm/metrics"
 )
 
 const (

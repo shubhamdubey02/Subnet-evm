@@ -26,7 +26,7 @@
 
 package pathdb
 
-import "github.com/shubhamdubey02/subnet/metrics"
+import "github.com/shubhamdubey02/subnet-evm/metrics"
 
 // nolint: unused
 var (

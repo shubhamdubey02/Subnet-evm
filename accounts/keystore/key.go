@@ -41,7 +41,7 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/google/uuid"
-	"github.com/shubhamdubey02/subnet/accounts"
+	"github.com/shubhamdubey02/subnet-evm/accounts"
 )
 
 const (

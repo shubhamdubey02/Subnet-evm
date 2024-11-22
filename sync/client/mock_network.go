@@ -8,7 +8,7 @@ import (
 	"errors"
 
 	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/shubhamdubey02/subnet/peer"
+	"github.com/shubhamdubey02/subnet-evm/peer"
 
 	"github.com/cryft-labs/cryftgo/version"
 )

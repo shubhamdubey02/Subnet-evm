@@ -27,8 +27,8 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 func TestEthTxGossip(t *testing.T) {

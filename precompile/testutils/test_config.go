@@ -6,8 +6,8 @@ package testutils
 import (
 	"testing"
 
-	"github.com/shubhamdubey02/subnet/commontype"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/commontype"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

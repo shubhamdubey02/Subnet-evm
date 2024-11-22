@@ -13,9 +13,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/math"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
-	"github.com/shubhamdubey02/subnet/predicate"
-	warpValidators "github.com/shubhamdubey02/subnet/warp/validators"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/predicate"
+	warpValidators "github.com/shubhamdubey02/subnet-evm/warp/validators"
 )
 
 const (

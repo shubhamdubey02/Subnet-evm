@@ -34,12 +34,12 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	cmath "github.com/ethereum/go-ethereum/common/math"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/core/vm"
-	"github.com/shubhamdubey02/subnet/params"
-	"github.com/shubhamdubey02/subnet/precompile/contracts/txallowlist"
-	"github.com/shubhamdubey02/subnet/utils"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/core/vm"
+	"github.com/shubhamdubey02/subnet-evm/params"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contracts/txallowlist"
+	"github.com/shubhamdubey02/subnet-evm/utils"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 )
 
 // ExecutionResult includes all output after executing given evm

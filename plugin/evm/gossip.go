@@ -19,10 +19,10 @@ import (
 	"github.com/cryft-labs/cryftgo/network/p2p"
 	"github.com/cryft-labs/cryftgo/network/p2p/gossip"
 
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/core/txpool"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/eth"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core/txpool"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/eth"
 )
 
 const pendingTxsBuffer = 10

@@ -12,7 +12,7 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/ulimit"
 	"github.com/cryft-labs/cryftgo/vms/rpcchainvm"
 
-	"github.com/shubhamdubey02/subnet/plugin/evm"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm"
 )
 
 func Run(versionStr string) {

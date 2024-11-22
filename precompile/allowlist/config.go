@@ -7,8 +7,8 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/precompile/contract"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contract"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
 )
 
 var ErrCannotAddManagersBeforeDurango = fmt.Errorf("cannot add managers before Durango")

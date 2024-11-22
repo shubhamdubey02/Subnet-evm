@@ -26,9 +26,9 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/gballet/go-verkle"
 	"github.com/holiman/uint256"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/trie/trienode"
-	"github.com/shubhamdubey02/subnet/trie/utils"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/trie/trienode"
+	"github.com/shubhamdubey02/subnet-evm/trie/utils"
 )
 
 var (

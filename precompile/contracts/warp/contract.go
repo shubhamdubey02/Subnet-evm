@@ -9,9 +9,9 @@ import (
 
 	"github.com/cryft-labs/cryftgo/vms/platformvm/warp"
 	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
-	"github.com/shubhamdubey02/subnet/accounts/abi"
-	"github.com/shubhamdubey02/subnet/precompile/contract"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/accounts/abi"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contract"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 
 	_ "embed"
 

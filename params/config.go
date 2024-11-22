@@ -35,10 +35,10 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/constants"
 	"github.com/cryft-labs/cryftgo/version"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/commontype"
-	"github.com/shubhamdubey02/subnet/precompile/modules"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/commontype"
+	"github.com/shubhamdubey02/subnet-evm/precompile/modules"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 const maxJSONLen = 64 * 1024 * 1024 // 64MB

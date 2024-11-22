@@ -23,8 +23,8 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/set"
 	"github.com/cryft-labs/cryftgo/version"
 
-	"github.com/shubhamdubey02/subnet/peer/stats"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/peer/stats"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
 )
 
 // Minimum amount of time to handle a request

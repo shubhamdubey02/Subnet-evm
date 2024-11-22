@@ -4,8 +4,8 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core/txpool"
-	"github.com/shubhamdubey02/subnet/core/types"
+	"github.com/shubhamdubey02/subnet-evm/core/txpool"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
 )
 
 type TransactionsByPriceAndNonce = transactionsByPriceAndNonce

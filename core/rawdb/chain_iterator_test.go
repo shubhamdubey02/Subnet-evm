@@ -34,7 +34,7 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core/types"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
 )
 
 func TestChainIterator(t *testing.T) {

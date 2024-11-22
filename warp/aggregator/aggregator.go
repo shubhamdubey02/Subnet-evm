@@ -12,7 +12,7 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
 	"github.com/cryft-labs/cryftgo/utils/set"
 	avalancheWarp "github.com/cryft-labs/cryftgo/vms/platformvm/warp"
-	"github.com/shubhamdubey02/subnet/precompile/contracts/warp"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contracts/warp"
 )
 
 type AggregateSignatureResult struct {

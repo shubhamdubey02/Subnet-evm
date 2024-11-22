@@ -6,7 +6,7 @@ package evm
 import (
 	"github.com/cryft-labs/cryftgo/chains/atomic"
 	"github.com/cryft-labs/cryftgo/ids"
-	"github.com/shubhamdubey02/subnet/precompile/precompileconfig"
+	"github.com/shubhamdubey02/subnet-evm/precompile/precompileconfig"
 )
 
 var _ precompileconfig.SharedMemoryWriter = &sharedMemoryWriter{}

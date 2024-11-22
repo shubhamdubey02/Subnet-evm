@@ -36,10 +36,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/accounts"
-	"github.com/shubhamdubey02/subnet/accounts/external"
-	"github.com/shubhamdubey02/subnet/accounts/keystore"
-	"github.com/shubhamdubey02/subnet/core/types"
+	"github.com/shubhamdubey02/subnet-evm/accounts"
+	"github.com/shubhamdubey02/subnet-evm/accounts/external"
+	"github.com/shubhamdubey02/subnet-evm/accounts/keystore"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
 )
 
 // ErrNoChainID is returned whenever the user failed to specify a chain id.

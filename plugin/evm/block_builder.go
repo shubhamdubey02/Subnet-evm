@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/cryft-labs/cryftgo/utils/timer"
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/core/txpool"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core/txpool"
+	"github.com/shubhamdubey02/subnet-evm/params"
 
 	"github.com/cryft-labs/cryftgo/snow"
 	commonEng "github.com/cryft-labs/cryftgo/snow/engine/common"

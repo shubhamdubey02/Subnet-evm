@@ -39,7 +39,7 @@ import (
 	"github.com/cespare/cp"
 	"github.com/davecgh/go-spew/spew"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/accounts"
+	"github.com/shubhamdubey02/subnet-evm/accounts"
 	"golang.org/x/exp/slices"
 )
 

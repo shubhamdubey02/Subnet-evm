@@ -14,8 +14,8 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	"github.com/shubhamdubey02/subnet/sync/handlers/stats"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/sync/handlers/stats"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/shubhamdubey02/subnet/metrics"
+	"github.com/shubhamdubey02/subnet-evm/metrics"
 	"github.com/stretchr/testify/require"
 )
 

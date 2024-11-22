@@ -33,7 +33,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/holiman/uint256"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/params"
 )
 
 var rand = mrand.New(mrand.NewSource(1))

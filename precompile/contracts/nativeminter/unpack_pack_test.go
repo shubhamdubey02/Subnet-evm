@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/shubhamdubey02/subnet/accounts/abi"
-	"github.com/shubhamdubey02/subnet/constants"
-	"github.com/shubhamdubey02/subnet/precompile/contract"
+	"github.com/shubhamdubey02/subnet-evm/accounts/abi"
+	"github.com/shubhamdubey02/subnet-evm/constants"
+	"github.com/shubhamdubey02/subnet-evm/precompile/contract"
 	"github.com/stretchr/testify/require"
 )
 

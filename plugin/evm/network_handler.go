@@ -9,13 +9,13 @@ import (
 	"github.com/cryft-labs/cryftgo/codec"
 	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/shubhamdubey02/subnet/metrics"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	syncHandlers "github.com/shubhamdubey02/subnet/sync/handlers"
-	syncStats "github.com/shubhamdubey02/subnet/sync/handlers/stats"
-	"github.com/shubhamdubey02/subnet/trie"
-	"github.com/shubhamdubey02/subnet/warp"
-	warpHandlers "github.com/shubhamdubey02/subnet/warp/handlers"
+	"github.com/shubhamdubey02/subnet-evm/metrics"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	syncHandlers "github.com/shubhamdubey02/subnet-evm/sync/handlers"
+	syncStats "github.com/shubhamdubey02/subnet-evm/sync/handlers/stats"
+	"github.com/shubhamdubey02/subnet-evm/trie"
+	"github.com/shubhamdubey02/subnet-evm/warp"
+	warpHandlers "github.com/shubhamdubey02/subnet-evm/warp/handlers"
 )
 
 var _ message.RequestHandler = &networkHandler{}

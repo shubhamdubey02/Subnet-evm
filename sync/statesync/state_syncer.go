@@ -10,9 +10,9 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/shubhamdubey02/subnet/core/state/snapshot"
-	syncclient "github.com/shubhamdubey02/subnet/sync/client"
-	"github.com/shubhamdubey02/subnet/trie"
+	"github.com/shubhamdubey02/subnet-evm/core/state/snapshot"
+	syncclient "github.com/shubhamdubey02/subnet-evm/sync/client"
+	"github.com/shubhamdubey02/subnet-evm/trie"
 	"golang.org/x/sync/errgroup"
 )
 

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/params"
 	"github.com/stretchr/testify/require"
 )
 

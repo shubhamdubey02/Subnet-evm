@@ -10,9 +10,9 @@ import (
 	"os"
 
 	gethlog "github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/cmd/simulator/config"
-	"github.com/shubhamdubey02/subnet/cmd/simulator/load"
-	"github.com/shubhamdubey02/subnet/log"
+	"github.com/shubhamdubey02/subnet-evm/cmd/simulator/config"
+	"github.com/shubhamdubey02/subnet-evm/cmd/simulator/load"
+	"github.com/shubhamdubey02/subnet-evm/log"
 	"github.com/spf13/pflag"
 )
 

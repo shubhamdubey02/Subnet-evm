@@ -11,8 +11,8 @@ import (
 	"github.com/cryft-labs/cryftgo/snow/engine/snowman/block"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
 )
 
 type stateSyncServerConfig struct {

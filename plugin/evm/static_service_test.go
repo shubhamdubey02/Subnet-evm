@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/cryft-labs/cryftgo/utils/formatting"
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/params"
 	"github.com/stretchr/testify/assert"
 )
 

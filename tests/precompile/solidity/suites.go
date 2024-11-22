@@ -10,7 +10,7 @@ import (
 	"time"
 
 	ginkgo "github.com/onsi/ginkgo/v2"
-	"github.com/shubhamdubey02/subnet/tests/utils"
+	"github.com/shubhamdubey02/subnet-evm/tests/utils"
 )
 
 // Registers the Asynchronized Precompile Tests

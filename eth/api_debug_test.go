@@ -34,10 +34,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/core/state"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/trie"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/core/state"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/trie"
 
 	"github.com/davecgh/go-spew/spew"
 

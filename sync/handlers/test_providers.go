@@ -5,8 +5,8 @@ package handlers
 
 import (
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core/state/snapshot"
-	"github.com/shubhamdubey02/subnet/core/types"
+	"github.com/shubhamdubey02/subnet-evm/core/state/snapshot"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
 )
 
 var (

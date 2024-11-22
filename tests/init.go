@@ -33,8 +33,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/shubhamdubey02/subnet/params"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/params"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 // Forks table defines supported forks and their chain config.

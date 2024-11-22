@@ -6,7 +6,7 @@ package allowlist
 import (
 	"testing"
 
-	"github.com/shubhamdubey02/subnet/precompile/modules"
+	"github.com/shubhamdubey02/subnet-evm/precompile/modules"
 )
 
 var testModule = modules.Module{

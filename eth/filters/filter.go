@@ -33,9 +33,9 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core/bloombits"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/rpc"
+	"github.com/shubhamdubey02/subnet-evm/core/bloombits"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/rpc"
 )
 
 // Filter can be used to retrieve and filter logs.

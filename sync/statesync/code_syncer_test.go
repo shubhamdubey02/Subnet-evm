@@ -12,11 +12,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethdb/memorydb"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	statesyncclient "github.com/shubhamdubey02/subnet/sync/client"
-	"github.com/shubhamdubey02/subnet/sync/handlers"
-	handlerstats "github.com/shubhamdubey02/subnet/sync/handlers/stats"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	statesyncclient "github.com/shubhamdubey02/subnet-evm/sync/client"
+	"github.com/shubhamdubey02/subnet-evm/sync/handlers"
+	handlerstats "github.com/shubhamdubey02/subnet-evm/sync/handlers/stats"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -3,7 +3,7 @@
 
 package evm
 
-import "github.com/shubhamdubey02/subnet/metrics"
+import "github.com/shubhamdubey02/subnet-evm/metrics"
 
 var _ GossipStats = &gossipStats{}
 

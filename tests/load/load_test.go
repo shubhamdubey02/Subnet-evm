@@ -22,8 +22,8 @@ import (
 	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
 	"github.com/cryft-labs/cryftgo/utils/set"
 
-	"github.com/shubhamdubey02/subnet/tests"
-	"github.com/shubhamdubey02/subnet/tests/utils"
+	"github.com/shubhamdubey02/subnet-evm/tests"
+	"github.com/shubhamdubey02/subnet-evm/tests/utils"
 )
 
 const (

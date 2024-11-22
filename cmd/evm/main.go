@@ -32,14 +32,14 @@ import (
 	"math/big"
 	"os"
 
-	"github.com/shubhamdubey02/subnet/cmd/evm/internal/t8ntool"
-	"github.com/shubhamdubey02/subnet/internal/debug"
-	"github.com/shubhamdubey02/subnet/internal/flags"
+	"github.com/shubhamdubey02/subnet-evm/cmd/evm/internal/t8ntool"
+	"github.com/shubhamdubey02/subnet-evm/internal/debug"
+	"github.com/shubhamdubey02/subnet-evm/internal/flags"
 	"github.com/urfave/cli/v2"
 
 	// Force-load the tracer engines to trigger registration
-	_ "github.com/shubhamdubey02/subnet/eth/tracers/js"
-	_ "github.com/shubhamdubey02/subnet/eth/tracers/native"
+	_ "github.com/shubhamdubey02/subnet-evm/eth/tracers/js"
+	_ "github.com/shubhamdubey02/subnet-evm/eth/tracers/native"
 )
 
 var (

@@ -9,7 +9,7 @@ import (
 	"math/big"
 
 	"github.com/cryft-labs/cryftgo/snow"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 // UpgradeConfig includes the following configs that may be specified in upgradeBytes:

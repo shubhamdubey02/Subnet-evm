@@ -21,7 +21,7 @@
   "module": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/shubhamdubey02/subnet.git",
+    "url": "https://github.com/shubhamdubey02/subnet-evm.git",
     "directory": "contracts"
   },
   "license": "BSD-3-Clause",

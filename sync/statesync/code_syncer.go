@@ -13,9 +13,9 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/set"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	statesyncclient "github.com/shubhamdubey02/subnet/sync/client"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	statesyncclient "github.com/shubhamdubey02/subnet-evm/sync/client"
 )
 
 const (

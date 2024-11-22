@@ -11,8 +11,8 @@ import (
 	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	"github.com/shubhamdubey02/subnet/warp"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/warp"
 )
 
 // SignatureRequestHandler serves warp signature requests. It is a peer.RequestHandler for message.MessageSignatureRequest.

@@ -35,19 +35,19 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/asm"
-	"github.com/shubhamdubey02/subnet/accounts/abi"
-	"github.com/shubhamdubey02/subnet/consensus"
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/core/state"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/core/vm"
-	"github.com/shubhamdubey02/subnet/eth/tracers"
-	"github.com/shubhamdubey02/subnet/eth/tracers/logger"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/accounts/abi"
+	"github.com/shubhamdubey02/subnet-evm/consensus"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/core/state"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/core/vm"
+	"github.com/shubhamdubey02/subnet-evm/eth/tracers"
+	"github.com/shubhamdubey02/subnet-evm/eth/tracers/logger"
+	"github.com/shubhamdubey02/subnet-evm/params"
 
 	// force-load js tracers to trigger registration
-	_ "github.com/shubhamdubey02/subnet/eth/tracers/js"
+	_ "github.com/shubhamdubey02/subnet-evm/eth/tracers/js"
 )
 
 func TestDefaults(t *testing.T) {

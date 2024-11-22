@@ -11,7 +11,7 @@ import (
 	"github.com/cryft-labs/cryftgo/ids"
 	"github.com/cryft-labs/cryftgo/tests/fixture/tmpnet"
 
-	"github.com/shubhamdubey02/subnet/plugin/evm"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm"
 )
 
 var DefaultChainConfig = tmpnet.FlagsMap{

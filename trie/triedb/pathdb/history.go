@@ -33,7 +33,7 @@ import (
 	"fmt"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/trie/triestate"
+	"github.com/shubhamdubey02/subnet-evm/trie/triestate"
 	"golang.org/x/exp/slices"
 )
 

@@ -27,8 +27,8 @@
 package node
 
 import (
-	"github.com/shubhamdubey02/subnet/accounts"
-	"github.com/shubhamdubey02/subnet/rpc"
+	"github.com/shubhamdubey02/subnet-evm/accounts"
+	"github.com/shubhamdubey02/subnet-evm/rpc"
 )
 
 // Node is a container on which services can be registered.

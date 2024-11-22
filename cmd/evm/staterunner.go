@@ -33,12 +33,12 @@ import (
 	"os"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/core/state"
-	"github.com/shubhamdubey02/subnet/core/state/snapshot"
-	"github.com/shubhamdubey02/subnet/core/vm"
-	"github.com/shubhamdubey02/subnet/eth/tracers/logger"
-	"github.com/shubhamdubey02/subnet/tests"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/core/state"
+	"github.com/shubhamdubey02/subnet-evm/core/state/snapshot"
+	"github.com/shubhamdubey02/subnet-evm/core/vm"
+	"github.com/shubhamdubey02/subnet-evm/eth/tracers/logger"
+	"github.com/shubhamdubey02/subnet-evm/tests"
 	"github.com/urfave/cli/v2"
 )
 

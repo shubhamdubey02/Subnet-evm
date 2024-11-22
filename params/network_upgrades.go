@@ -8,7 +8,7 @@ import (
 	"reflect"
 
 	"github.com/cryft-labs/cryftgo/version"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 var (

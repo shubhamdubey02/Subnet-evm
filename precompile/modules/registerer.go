@@ -8,8 +8,8 @@ import (
 	"sort"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/constants"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/constants"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 var (

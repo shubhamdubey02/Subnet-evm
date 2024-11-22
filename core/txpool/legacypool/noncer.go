@@ -30,7 +30,7 @@ import (
 	"sync"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core/state"
+	"github.com/shubhamdubey02/subnet-evm/core/state"
 )
 
 // noncer is a tiny virtual state database to manage the executable nonces of

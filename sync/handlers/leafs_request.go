@@ -15,13 +15,13 @@ import (
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/ethdb/memorydb"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/core/state/snapshot"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	"github.com/shubhamdubey02/subnet/sync/handlers/stats"
-	"github.com/shubhamdubey02/subnet/sync/syncutils"
-	"github.com/shubhamdubey02/subnet/trie"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/core/state/snapshot"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/sync/handlers/stats"
+	"github.com/shubhamdubey02/subnet-evm/sync/syncutils"
+	"github.com/shubhamdubey02/subnet-evm/trie"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 const (

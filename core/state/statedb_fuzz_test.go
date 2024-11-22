@@ -42,12 +42,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/core/state/snapshot"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/trie"
-	"github.com/shubhamdubey02/subnet/trie/triedb/pathdb"
-	"github.com/shubhamdubey02/subnet/trie/triestate"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/core/state/snapshot"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/trie"
+	"github.com/shubhamdubey02/subnet-evm/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/subnet-evm/trie/triestate"
 )
 
 // A stateTest checks that the state changes are correctly captured. Instances

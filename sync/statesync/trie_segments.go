@@ -14,10 +14,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	syncclient "github.com/shubhamdubey02/subnet/sync/client"
-	"github.com/shubhamdubey02/subnet/trie"
-	"github.com/shubhamdubey02/subnet/utils"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	syncclient "github.com/shubhamdubey02/subnet-evm/sync/client"
+	"github.com/shubhamdubey02/subnet-evm/trie"
+	"github.com/shubhamdubey02/subnet-evm/utils"
 )
 
 var (

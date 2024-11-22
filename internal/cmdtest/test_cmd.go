@@ -42,7 +42,7 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/shubhamdubey02/subnet/internal/reexec"
+	"github.com/shubhamdubey02/subnet-evm/internal/reexec"
 )
 
 func NewTestCmd(t *testing.T, data interface{}) *TestCmd {

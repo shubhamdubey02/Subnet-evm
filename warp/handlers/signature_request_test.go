@@ -18,9 +18,9 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
 	avalancheWarp "github.com/cryft-labs/cryftgo/vms/platformvm/warp"
 	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	"github.com/shubhamdubey02/subnet/utils"
-	"github.com/shubhamdubey02/subnet/warp"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/utils"
+	"github.com/shubhamdubey02/subnet-evm/warp"
 	"github.com/stretchr/testify/require"
 )
 

@@ -29,7 +29,7 @@ package vm
 import (
 	"fmt"
 
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/params"
 )
 
 type (

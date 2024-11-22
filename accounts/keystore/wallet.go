@@ -30,9 +30,9 @@ import (
 	"math/big"
 
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/shubhamdubey02/subnet/accounts"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/interfaces"
+	"github.com/shubhamdubey02/subnet-evm/accounts"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/interfaces"
 )
 
 // keystoreWallet implements the accounts.Wallet interface for the original

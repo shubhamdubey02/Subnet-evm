@@ -30,12 +30,12 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/core/txpool/blobpool"
-	"github.com/shubhamdubey02/subnet/core/txpool/legacypool"
-	"github.com/shubhamdubey02/subnet/eth/gasprice"
-	"github.com/shubhamdubey02/subnet/miner"
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core/txpool/blobpool"
+	"github.com/shubhamdubey02/subnet-evm/core/txpool/legacypool"
+	"github.com/shubhamdubey02/subnet-evm/eth/gasprice"
+	"github.com/shubhamdubey02/subnet-evm/miner"
+	"github.com/shubhamdubey02/subnet-evm/params"
 )
 
 // DefaultFullGPOConfig contains default gasprice oracle settings for full node.

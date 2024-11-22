@@ -17,7 +17,7 @@
 package vm
 
 import (
-	"github.com/shubhamdubey02/subnet/params"
+	"github.com/shubhamdubey02/subnet-evm/params"
 )
 
 // LookupInstructionSet returns the instruction set for the fork configured by

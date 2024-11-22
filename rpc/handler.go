@@ -36,7 +36,7 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/metrics"
+	"github.com/shubhamdubey02/subnet-evm/metrics"
 	"golang.org/x/time/rate"
 )
 

@@ -22,10 +22,10 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/ethdb"
 	"github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/trie/triedb/hashdb"
-	"github.com/shubhamdubey02/subnet/trie/triedb/pathdb"
-	"github.com/shubhamdubey02/subnet/trie/trienode"
-	"github.com/shubhamdubey02/subnet/trie/triestate"
+	"github.com/shubhamdubey02/subnet-evm/trie/triedb/hashdb"
+	"github.com/shubhamdubey02/subnet-evm/trie/triedb/pathdb"
+	"github.com/shubhamdubey02/subnet-evm/trie/trienode"
+	"github.com/shubhamdubey02/subnet-evm/trie/triestate"
 )
 
 // Config defines all necessary options for database.

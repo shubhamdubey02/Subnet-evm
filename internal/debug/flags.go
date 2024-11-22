@@ -40,7 +40,7 @@ import (
 	"github.com/fjl/memsize/memsizeui"
 	"github.com/mattn/go-colorable"
 	"github.com/mattn/go-isatty"
-	"github.com/shubhamdubey02/subnet/internal/flags"
+	"github.com/shubhamdubey02/subnet-evm/internal/flags"
 	"github.com/urfave/cli/v2"
 	"golang.org/x/exp/slog"
 	"gopkg.in/natefinch/lumberjack.v2"

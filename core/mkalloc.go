@@ -44,7 +44,7 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/shubhamdubey02/subnet/core"
+	"github.com/shubhamdubey02/subnet-evm/core"
 	"golang.org/x/exp/slices"
 )
 

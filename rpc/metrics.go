@@ -30,7 +30,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/shubhamdubey02/subnet/metrics"
+	"github.com/shubhamdubey02/subnet-evm/metrics"
 )
 
 var (

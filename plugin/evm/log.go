@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	gethlog "github.com/ethereum/go-ethereum/log"
-	"github.com/shubhamdubey02/subnet/log"
+	"github.com/shubhamdubey02/subnet-evm/log"
 	"golang.org/x/exp/slog"
 )
 

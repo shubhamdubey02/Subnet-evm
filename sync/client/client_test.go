@@ -17,17 +17,17 @@ import (
 
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/shubhamdubey02/subnet/consensus/dummy"
-	"github.com/shubhamdubey02/subnet/core"
-	"github.com/shubhamdubey02/subnet/core/rawdb"
-	"github.com/shubhamdubey02/subnet/core/types"
-	"github.com/shubhamdubey02/subnet/params"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
-	clientstats "github.com/shubhamdubey02/subnet/sync/client/stats"
-	"github.com/shubhamdubey02/subnet/sync/handlers"
-	handlerstats "github.com/shubhamdubey02/subnet/sync/handlers/stats"
-	"github.com/shubhamdubey02/subnet/sync/syncutils"
-	"github.com/shubhamdubey02/subnet/trie"
+	"github.com/shubhamdubey02/subnet-evm/consensus/dummy"
+	"github.com/shubhamdubey02/subnet-evm/core"
+	"github.com/shubhamdubey02/subnet-evm/core/rawdb"
+	"github.com/shubhamdubey02/subnet-evm/core/types"
+	"github.com/shubhamdubey02/subnet-evm/params"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
+	clientstats "github.com/shubhamdubey02/subnet-evm/sync/client/stats"
+	"github.com/shubhamdubey02/subnet-evm/sync/handlers"
+	handlerstats "github.com/shubhamdubey02/subnet-evm/sync/handlers/stats"
+	"github.com/shubhamdubey02/subnet-evm/sync/syncutils"
+	"github.com/shubhamdubey02/subnet-evm/trie"
 )
 
 func TestGetCode(t *testing.T) {

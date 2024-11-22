@@ -12,7 +12,7 @@ import (
 	"github.com/cryft-labs/cryftgo/utils/crypto/bls"
 	avalancheWarp "github.com/cryft-labs/cryftgo/vms/platformvm/warp"
 	"github.com/cryft-labs/cryftgo/vms/platformvm/warp/payload"
-	"github.com/shubhamdubey02/subnet/plugin/evm/message"
+	"github.com/shubhamdubey02/subnet-evm/plugin/evm/message"
 )
 
 const (

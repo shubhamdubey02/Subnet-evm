@@ -14,12 +14,12 @@ import (
 	"testing"
 	"math/big"
 
-	"github.com/shubhamdubey02/subnet/core/state"
+	"github.com/shubhamdubey02/subnet-evm/core/state"
 	{{- if .Contract.AllowList}}
-	"github.com/shubhamdubey02/subnet/precompile/allowlist"
+	"github.com/shubhamdubey02/subnet-evm/precompile/allowlist"
 	{{- end}}
-	"github.com/shubhamdubey02/subnet/precompile/testutils"
-	"github.com/shubhamdubey02/subnet/vmerrs"
+	"github.com/shubhamdubey02/subnet-evm/precompile/testutils"
+	"github.com/shubhamdubey02/subnet-evm/vmerrs"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )
